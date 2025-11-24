@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1;
+  font-weight: 300;
+  color: #2b0806;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.p {
+  font-size: 1.8rem;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.pSmall {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--Black, #2b0806);
+  line-height: 21.79px;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  font-size: 2.2rem;
+  font-weight: 700;
+  padding: 1.2rem 2.4rem;
+  border: none;
+  border-radius: 2.4rem 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btnBeige {
+  color: var(--White, #fff);
+  background-color: #d8b08a;
+}
+
+.btnRed {
+  color: var(--White, #fff);
+  background-color: #c64227;
+}
+
+.btnBeige:hover,
+.btnBeige:active {
+  background-color: #ad8d6e;
+}
+
+.btnRed:hover,
+.btnRed:active {
+  background-color: #9e351f;
+}
+
+.h1 {
+  font-size: 6.2rem;
+  font-weight: 700;
+  color: #c64227;
+  line-height: 62px;
+  text-transform: uppercase;
+}
+
+.h2 {
+  font-size: 5.3rem;
+  font-weight: 700;
+  line-height: 52.8px;
+}
+
+.h3 {
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+.h4 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.h5{
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 38.13px;
+}
+
+.number {
+  font-size: 3.125rem;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.numberBeige {
+  color: var(--Bov, #d8b08a);
+}
+
+.numberRed {
+  color: #c64227;
+}

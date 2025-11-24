@@ -1,0 +1,10 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="finance">
+<mask id="mask0_74_1890" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="36" height="36">
+<rect id="Bounding box" width="36" height="36" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_74_1890)">
+<path id="finance_2" d="M6.75 31.5C6.15 31.5 5.625 31.275 5.175 30.825C4.725 30.375 4.5 29.85 4.5 29.25V4.5H6.75V29.25H31.5V31.5H6.75ZM9.5625 26.4375V13.9125H14.025V26.4375H9.5625ZM16.9875 26.4375V6.1875H21.45V26.4375H16.9875ZM24.2625 26.4375V20.0625H28.725V26.4375H24.2625Z" fill="#1C1B1F"/>
+</g>
+</g>
+</svg>
