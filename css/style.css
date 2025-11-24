@@ -148,6 +148,10 @@
 /* STRATEGY SECTION*/
 /*************************/
 
+.strategySection {
+  padding: 0;
+}
+
 .strategyContent {
   display: flex;
   gap: 8rem;
@@ -155,6 +159,12 @@
   justify-content: center;
   padding: 10rem 0;
   width: 120rem;
+}
+
+.strategyCards {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
 }
 
 .imgDoctor2 {
@@ -198,14 +208,23 @@
   width: 86rem;
   border-radius: 2.4rem 0;
   margin: 0 auto;
+  display: flex;
+  gap: 0;
 }
 
 .btnSwitchBeige,
 .btnSwitchBeige:link,
 .btnSwitchBeige:visited {
-  width: 42.4rem;
+  flex: 1;
   background-color: white;
   color: #d8b08a;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  padding: 1.2rem 2.4rem;
+  border: none;
 }
 
 .btnSwitchBeige:hover,
@@ -217,15 +236,35 @@
 .btnSwitchRed,
 .btnSwitchRed:link,
 .btnSwitchRed:visited {
-  width: 42.4rem;
+  flex: 1;
   background-color: white;
   color: #c64227;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  padding: 1.2rem 2.4rem;
+  border: none;
 }
 
 .btnSwitchRed:hover,
 .btnSwitchRed:active {
   background-color: #c64227;
   color: var(--White, #fff);
+}
+
+/* Active state for switch buttons */
+.btnSwitch .btnSwitchRed.active,
+.btnSwitch .btnSwitchRed:active {
+  background-color: #c64227 !important;
+  color: #fff !important;
+}
+
+.btnSwitch .btnSwitchBeige.active,
+.btnSwitch .btnSwitchBeige:active {
+  background-color: #d8b08a !important;
+  color: #fff !important;
 }
 
 .stepCards {
@@ -251,6 +290,12 @@
   width: 80rem;
   padding: 7rem 0;
   margin: 0 auto;
+}
+
+.processContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
 }
 
 .sellHeadline {
